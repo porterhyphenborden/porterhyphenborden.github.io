@@ -37,6 +37,7 @@ nav li {
 
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -80,8 +81,8 @@ h4 {
 p {
     text-align: left;
     width: 80%;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 26px;
     margin-right: auto;
     margin-left: auto;
 }
