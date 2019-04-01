@@ -5,10 +5,11 @@
     <meta name="description" content="Personal Webpage and Portfolio for Callie Porter-Borden">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans" rel="stylesheet">
 </head>
 
 <body>
-    <nav role="navigation" class="collapsible-menu">
+    <nav role="navigation" class="collapsible-menu top-nav sm-display">
         <input type="checkbox" id="menu">
         <label for="menu"></label>
         <ul class="menu-content">
@@ -18,14 +19,22 @@
             <li><a href="contact.html">contact</a></li>
         </ul>
     </nav>
-    <header role="banner">
+    <nav class="side-nav" role="navigation">
+        <div class="spacer"></div>
+        <ul>
+            <li><a href="bio.html"><h3 class="magenta">bio</h3></a></li>
+            <li><a href="projects.html"><h3 class="yellow">projects</h3></a></li>
+            <li><a href="contact.html"><h3 class="cyan">contact</h3></a></li>
+        </ul>
+    </nav>
+    <header>
         <h1>callie porter-borden</h1>
         <h2>developer & designer</h2>
     </header>
-    <main role="main">
-            <a href="bio.html"><h3>bio</h3></a>
-            <a href="projects.html"><h3>projects</h3></a>
-            <a href="contact.html"><h3>contact</h3></a>
+    <main role="main" class="sm-display">
+        <a href="bio.html"><h3 class="magenta">bio</h3></a>
+        <a href="projects.html"><h3 class="yellow">projects</h3></a>
+        <a href="contact.html"><h3 class="cyan">contact</h3></a>
     </main>
 </body>
 </html>
