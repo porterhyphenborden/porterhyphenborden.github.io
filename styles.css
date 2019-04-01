@@ -61,6 +61,10 @@ nav a:hover {
     font-size: 26px;
 }
 
+header {
+    margin-top: 20px;
+}
+
 h1, h2, h4, h5 {
     font-weight: normal;
 }
@@ -68,13 +72,13 @@ h1, h2, h4, h5 {
 h1 {
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 46px;
+    font-size: 44px;
     font-family: 'Lora', serif;
 }
 
 h2 {
     margin-top: -8px;
-    font-size: 26px;
+    font-size: 25px;
     text-indent: 130px;
 
 }
@@ -264,14 +268,17 @@ input#menu {
         width: 80%;
     }
 
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
     h3 {
         height: 160px;
         padding-top: 104px;
-    }
-
-    .short {
-        height: 70px;
-        padding-top: 20px;
     }
 
     h4 {
@@ -280,9 +287,19 @@ input#menu {
         text-align: left;
     }
 
+    p {
+        margin-top: 30px;
+    }
+
     .contact-list h4 {
         margin: 0;
         padding: 0;
+    }
+
+    
+    .short {
+        height: 70px;
+        padding-top: 20px;
     }
 
     .logo {
@@ -293,7 +310,7 @@ input#menu {
 
     .biopic {
         float: left;
-        margin: 0px 15px 0 10px;
+        margin: 0px 15px 10px 10px;
     }
 
     .project-images-container {
