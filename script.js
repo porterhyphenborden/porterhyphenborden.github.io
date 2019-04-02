@@ -1,11 +1,13 @@
 function showbio() {
     $('nav').on('click', '.js-bio', function(event) {
         $('header').css('display', 'none');
-        $('.home-nav').addClass('new-top-nav');
+        $('.home-nav').addClass('top-nav');
         $('.home-nav').html(`${DATA[0].navBio}`);
         $('.js-side-y').animate({height:'70px', 'padding-top': '20px'});
         $('.js-side-c').animate({height:'70px', 'padding-top': '20px'});
         $('.js-side-m').animate({height:'160px', 'padding-top': '104px'});
+        // $('.home-nav').css('width', '70%');
+        // $('.home-nav').animate({width:'100%'});
         $('main').hide().html(`${DATA[0].mainBio}`).fadeIn('slow');
     })
 }
@@ -13,7 +15,7 @@ function showbio() {
 function showprojects() {
     $('nav').on('click', '.js-projects', function(event) {
         $('header').css('display', 'none');
-        $('.home-nav').addClass('new-top-nav');
+        $('.home-nav').addClass('top-nav');
         $('.home-nav').html(`${DATA[0].navProjects}`);
         $('.js-side-m').animate({height:'70px', 'padding-top': '20px'});
         $('.js-side-c').animate({height:'70px', 'padding-top': '20px'});
@@ -25,7 +27,7 @@ function showprojects() {
 function showcontact() {
     $('nav').on('click', '.js-contact', function(event) {
         $('header').css('display', 'none');
-        $('.home-nav').addClass('new-top-nav');
+        $('.home-nav').addClass('top-nav');
         $('.home-nav').html(`${DATA[0].navContact}`);
         $('.js-side-m').animate({height:'70px', 'padding-top': '20px'});
         $('.js-side-y').animate({height:'70px', 'padding-top': '20px'});
