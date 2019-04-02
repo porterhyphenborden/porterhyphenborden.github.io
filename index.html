@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Callie Porter-Borden | Portfolio</title>
-    <meta name="description" content="Personal Webpage and Portfolio for Callie Porter-Borden">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans" rel="stylesheet">
-</head>
+    <head>
+        <title>Callie Porter-Borden | Portfolio</title>
+        <meta name="description" content="Personal Webpage and Portfolio for Callie Porter-Borden">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
 
-<body>
-    <nav role="navigation" class="collapsible-menu top-nav sm-display">
-        <input type="checkbox" id="menu">
-        <label for="menu"></label>
-        <ul class="menu-content">
-            <li><a href="index.html">home</a></li>
-            <li><a href="bio.html">bio</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="contact.html">contact</a></li>
-        </ul>
-    </nav>
-    <nav class="side-nav" role="navigation">
-        <div class="spacer"></div>
-        <ul>
-            <li><a href="bio.html"><h3 class="magenta">bio</h3></a></li>
-            <li><a href="projects.html"><h3 class="yellow">projects</h3></a></li>
-            <li><a href="contact.html"><h3 class="cyan">contact</h3></a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>callie porter-borden</h1>
-        <h2>developer & designer</h2>
-    </header>
-    <main role="main" class="sm-display">
-        <a href="bio.html"><h3 class="magenta">bio</h3></a>
-        <a href="projects.html"><h3 class="yellow">projects</h3></a>
-        <a href="contact.html"><h3 class="cyan">contact</h3></a>
-    </main>
-</body>
+    <body>
+        <!-- <nav role="navigation" class="collapsible-menu top-nav sm-display">
+            <input type="checkbox" id="menu">
+            <label for="menu"></label>
+            <ul class="menu-content">
+                <li><a href="index.html">home</a></li>
+                <li><a href="bio.html">bio</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav> -->
+        <div class="new-top-nav">
+        </div>
+        <nav class="side-nav" role="navigation">
+            <ul>
+                <li><button class="js-home"><span class="logo">cpb</span></button></li>
+                <li><button class="js-bio"><h3 class="magenta js-side-m">bio</h3></button></li>
+                <li><button class="js-projects"><h3 class="yellow js-side-y">projects</h3></button></li>
+                <li><button class="js-contact"><h3 class="cyan js-side-c">contact</h3></button></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>callie porter-borden</h1>
+            <h2>developer & designer</h2>
+        </header>
+        <nav class="home-nav" role="navigation">
+            <ul>
+                <li><button class="js-bio"><h3 class="magenta">bio</h3></button></li>
+                <li><button class="js-projects"><h3 class="yellow">projects</h3></button></li>
+                <li><button class="js-contact"><h3 class="cyan">contact</h3></button></li>
+            </ul>
+        </nav>
+        <main role="main">
+        </main>
+        <script src="data.js"></script> 
+        <script src="script.js"></script> 
+    </body>
 </html>
