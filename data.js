@@ -44,29 +44,34 @@ const DATA = [{
     </ul>`,
     navBio: `       
     <ul>
-        <li><button class="js-home"><span class="logo">cpb</span></button></li>
+        <li><a href="index.html" class="js-home logo"><span>cpb</span></a></li>
         <div class="two-top">
-            <li><button class="js-projects"><h3 class="yellow js-top-y">projects</h3></button></li>
-            <li><button class="js-contact"><h3 class="cyan js-top-c">contact</h3></button></li>
+            <li><a href="projects.html" class="js-projects yellow"><h3>projects</h3></a></li>
+            <li><a href="contact.html" class="js-contact cyan"><h3>contact</h3></a></li>
         </div>
-        <li><button class="js-bio"><h3 class="magenta js-top-m">bio</h3></button></li>
+        <li><a href="bio.html" class="js-bio magenta"><h3>bio</h3></a></li>
     </ul>`,
     navProjects: `    
     <ul>
-        <li><button class="js-home"><span class="logo">cpb</span></button></li>
+        <li><a href="index.html" class="js-home logo"><span>cpb</span></a></li>
         <div class="two-top">
-            <li><button class="js-bio"><h3 class="magenta js-top-m">bio</h3></button></li>
-            <li><button class="js-contact"><h3 class="cyan js-top-c">contact</h3></button></li>
+            <li><a href="bio.html" class="js-bio magenta"><h3>bio</h3></a></li>
+            <li><a href="contact.html" class="js-contact cyan"><h3>contact</h3></a></li>
         </div>
-            <li><button class="js-projects"><h3 class="yellow js-top-y">projects</h3></button></li>
+            <li><a href="projects.html" class="js-projects yellow"><h3>projects</h3></a></li>
     </ul>`,
     navContact: `
     <ul>
-        <li><button class="js-home"><span class="logo">cpb</span></button></li>
+        <li><a href="index.html" class="js-home logo"><span>cpb</span></a></li>
         <div class="two-top">
-            <li><button class="js-bio"><h3 class="magenta js-top-m">bio</h3></button></li>
-            <li><button class="js-projects"><h3 class="yellow js-top-y">projects</h3></button></li>
+            <li><a href="bio.html" class="js-bio magenta"><h3>bio</h3></a></li>
+            <li><a href="projects.html" class="js-projects yellow"><h3>projects</h3></a></li>
         </div>
-        <li><button class="js-contact"><h3 class="cyan js-top-c">contact</h3></button></li>
-    </ul>`
+        <li><a href="contact.html" class="js-contact cyan"><h3>contact</h3></a></li>
+    </ul>`,
+    navHome: `<ul>
+    <li><a href="bio.html" class="js-bio magenta"><h3>bio</h3></a></li>
+    <li><a href="projects.html" class="js-projects yellow"><h3>projects</h3></a></li>
+    <li><a href="contact.html" class="js-contact cyan"><h3>contact</h3></a></li>
+</ul>`
   }]

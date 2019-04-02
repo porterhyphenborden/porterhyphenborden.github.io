@@ -9,37 +9,25 @@
 </head>
 
 <body>
-    <!-- <nav role="navigation" class="collapsible-menu top-nav sm-display">
-        <a href="index.html"><span class="logo">cpb</span></a>
-        <input type="checkbox" id="menu">
-        <label for="menu"></label>
-        <ul class="menu-content">
-            <li><a href="index.html">home</a></li>
-            <li><a href="bio.html">bio</a></li>
-            <li><a href="projects.html">projects</a></li>
-            <li><a href="contact.html">contact</a></li>
-        </ul>
-    </nav> -->
-    <nav role="navigation" class="new-top-nav">
+    <nav role="navigation" class="home-nav top-nav">
         <ul>
-            <li><button class="js-home"><span class="logo">cpb</span></button></li>
+            <li><a href="index.html" class="js-home logo"><span>cpb</span></a></li>
             <div class="two-top">
-                <li><button class="js-projects"><h3 class="yellow">projects</h3></button></li>
-                <li><button class="js-contact"><h3 class="cyan">contact</h3></button></li>
+                <li><a href="projects.html" class="js-projects yellow"><h3>projects</h3></a></li>
+                <li><a href="contact.html" class="js-contact cyan"><h3>contact</h3></a></li>
             </div>
-            <li><button class="js-bio"><h3 class="magenta">bio</h3></button></li>
+            <li><a href="bio.html" class="js-bio magenta"><h3>bio</h3></a></li>
         </ul>
     </nav>
     <nav class="side-nav" role="navigation">
-        <ul>
-            <li><a href="index.html"><span class="logo">cpb</span></a></li>
-            <li><a href="bio.html"><h3 class="magenta">bio</h3></a></li>
-            <li><a href="projects.html"><h3 class="yellow short">projects</h3></a></li>
-            <li><a href="contact.html"><h3 class="cyan short">contact</h3></a></li>
-        </ul>
+            <ul>
+                <li><a href="index.html" class="js-home logo"><span>cpb</span></a></li>
+                <li><a href="bio.html" class="js-bio magenta"><h3>bio</h3></a></li>
+                <li><a href="projects.html" class="js-projects yellow short"><h3>projects</h3></a></li>
+                <li><a href="contact.html" class="js-contact cyan short"><h3>contact</h3></a></li>
+            </ul>
     </nav>
-    <main role="main">
-        <!-- <h3 class="sm-display magenta">bio</h3> -->
+    <main role="main" style="display:block;">
         <img class="biopic" src="https://i.imgur.com/OOQ7lcP.png" alt="photo of callie porter-borden">
         <h4>I'm Callie.<br>I like to make things.</h4>
         <p>I am a full stack developer and web designer with a wide range of career experience.  I love to write clean and efficient code that solves problems while keeping in mind both aesthetic appeal and function.  Drawing from a background that includes work in the non-profit sector, service industry, and retail world, I have expertise in accounting, inventory management, graphic design, marketing, and customer service.  These skills inform any project I work on and allow me to better comprehend a client’s needs, collaborate with others, and think broadly to find specific solutions.
