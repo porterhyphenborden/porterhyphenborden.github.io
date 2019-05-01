@@ -11,12 +11,24 @@ const DATA = [{
         <a href="https://porterhyphenborden.github.io/quiz-app/" target="_blank"><h4>Tequila Quiz App</h4></a>
         <div class="project-images-container">
             <a href="https://porterhyphenborden.github.io/quiz-app/" target="_blank">
+            <img class="screenshot" src="https://i.imgur.com/GA9UjSS.png" alt="screenshot of Pot-Valor web app"></a>
+            <img class="tech-logo" src="https://i.imgur.com/QV3Ai1h.png" alt="HTML5">
+            <img class="tech-logo" src="https://i.imgur.com/tCe7noz.png" alt="CSS3">
+            <img class="tech-logo" src="https://i.imgur.com/fGqyA1v.png" alt="Javascript">
+        </div>
+        <p>This web app tests the user's knowledge of tequila and other Mexican spirits.  Designed to be fun and informal, this quiz can also be used by service industry professionals and includes basic information that anyone working with tequila and mezcal should know.</p> 
+        <br><br><a href="https://github.com/porterhyphenborden/pot-valor">Github Repository</a></p>
+    </section>
+    <section class="project-description">
+        <a href="https://porterhyphenborden.github.io/pot-valor/" target="_blank"><h4>Pot-Valor</h4></a>
+        <div class="project-images-container">
+            <a href="https://porterhyphenborden.github.io/pot-valor/" target="_blank">
             <img class="screenshot" src="https://i.imgur.com/safeZoD.png" alt="screenshot of tequila quiz app"></a>
             <img class="tech-logo" src="https://i.imgur.com/QV3Ai1h.png" alt="HTML5">
             <img class="tech-logo" src="https://i.imgur.com/tCe7noz.png" alt="CSS3">
             <img class="tech-logo" src="https://i.imgur.com/fGqyA1v.png" alt="Javascript">
         </div>
-        <p>This web app tests the user's knowledge of tequila and other Mexican spirits.  Designed to be fun and informal, this quiz can also be used by service industry professionals and includes basic information that anyone working with tequila and mezcal should know. 
+        <p>This web app consolidates meal planning for the modern at-home cook by creating a space where a user can find cocktail recipes, food recipes, and suggested wine pairings, all in one search.</p> 
         <br><br><a href="https://github.com/porterhyphenborden/quiz-app">Github Repository</a></p>
     </section>`,
     mainContact: `
