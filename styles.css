@@ -129,6 +129,7 @@ img.tech-logo {
 }
 
 .project-description {
+    clear: left;
     margin-right: auto;
     margin-left: auto;
     padding: 0px 10px;
