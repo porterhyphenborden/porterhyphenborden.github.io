@@ -15,9 +15,15 @@ main {
 }
 
 header {
-    margin-top: 20px;
+    height: 575px;
+    margin: 0 auto;
     align-self: center;
     padding: 0;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+    display: block;
 }
 
 h1, h2, h4, h5 {
@@ -25,16 +31,19 @@ h1, h2, h4, h5 {
 }
 
 h1 {
+    margin-top: 265px;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-right: 6%;
     font-size: 40px;
     font-family: 'Lora', serif;
+    text-align: right;
 }
 
 h2 {
     margin-top: -8px;
     font-size: 22px;
-    text-indent: 130px;
+    text-align: right;
+    margin-right: 8%;
 
 }
 
@@ -52,7 +61,7 @@ h3 {
 h4 {
     font-family: 'Lora', serif;
     font-size: 24px;
-    padding: 5px;
+    padding: 5px 0 5px 0;
     margin-bottom: 5px;
 }
 
@@ -62,16 +71,11 @@ p {
     line-height: 26px;
     margin-right: auto;
     margin-left: auto;
-    padding: 10px;
 }
 
 span {
     padding: 0;
     margin: 0;
-}
-
-section {
-    text-align: center;
 }
 
 ul, li {
@@ -111,25 +115,41 @@ img.contact-link {
 }
 
 img.screenshot {
-    width: 220px;
-    margin-right: auto;
-    margin-left: auto;
     display: block;
+    padding-left: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.project-description p {
+    margin: 0;
+}
+
+section.project-description {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid rgb(30, 33, 82);
+    padding-bottom: 10px;
 }
 
 img.tech-logo {
     display: inline-block;
     height: 40px;
-    margin: 10px;
+    margin: 6px;
+}
+
+p.bio {
+    clear: left;
+    margin: 10px 0;
 }
 
 .biopic {
+    float: left;
     height: 100px;
-    margin: 10px 0 0 0;
+    margin: 0px 15px 5px 10px;
 }
 
 .project-description {
-    clear: left;
     margin-right: auto;
     margin-left: auto;
     padding: 0px 10px;
@@ -195,6 +215,12 @@ a {
     margin: 5px 0 0 10px;
     color: rgb(30, 33, 82);
     text-align: left;
+    display: none;
+}
+
+li.home-link {
+    height: 40px;
+    display: block;
 }
 
 .side-nav a {
@@ -255,7 +281,7 @@ a.logo {
     }
 
     main {
-        margin: 70px 0px 0 0px;
+        margin: 60px 0px 0 0px;
         padding-right: 20px;
         padding-left: 20px;
         width: 75%;
@@ -271,7 +297,6 @@ a.logo {
 
     header {
         width: 75%;
-        padding-right: 60px;
         display: block;
         margin-right: auto;
         margin-left: auto;
@@ -291,10 +316,6 @@ a.logo {
         text-align: left;
     }
 
-    p {
-        margin-top: 30px;
-    }
-
     .contact-list h4 {
         margin: 0;
         padding: 0;
@@ -308,13 +329,7 @@ a.logo {
         padding-top: 20px;
     }
 
-    .biopic {
-        float: left;
-        margin: 0px 15px 10px 10px;
-    }
-
     .project-images-container {
-        float: left;
         padding-right: 10px;
         padding-top: 10px;
     }
@@ -331,14 +346,14 @@ a.logo {
         justify-content: flex-start;
     }
 
-    img.screenshot {
-        padding-left: 5px;
-    }
-
-
 }
 
-@media screen and (max-width: 49em) {
+@media screen and (max-width: 50em) {
+
+    main {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 
     .side-nav {
         display: none;
@@ -346,12 +361,54 @@ a.logo {
 
     .home-nav {
         display: block;
+        margin: 10px 0;
+    }
+
+    .js-home {
+        display: block;
     }
 
     h3 {
         font-size: 32px;
         background-color: none;
         padding: 0;
+    }
+
+    header {
+        background: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 16px 0 0 0;
+        text-align: center;
+    }
+    
+    h2 {
+        margin-top: -8px;
+        font-size: 22px;
+        text-indent: 116px;
+        text-align: center;
+    }
+
+    img.tech-logo {
+        display: inline-block;
+        height: 30px;
+        margin: 4px;
+    }
+
+    .project-description h4 {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    section.project-description {
+        margin-top: 20px;
+    }
+
+    img.biopic {
+        float: none;
     }
 
 }
